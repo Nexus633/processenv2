@@ -1,24 +1,38 @@
 {
-  "name": "processenv2",
-  "version": "1.0.1",
-  "description": "parse .env files to load variables to the process.env property automatically",
-  "main": "lib/processenv2.js",
-  "scripts": { },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Nexus633/processenv2.git"
-  },
-  "keywords": [
-    "env",
-    "dotenv",
-    "environment",
-    "pars",
-    "processenv"
-  ],
-  "author": "Andre Rohlf",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Nexus633/processenv2/issues"
-  },
-  "homepage": "https://github.com/Nexus633/processenv2#readme"
+    "name": "processenv2",
+    "version": "2.0.0",
+    "description": "parse .env files to load variables to the process.env property automatically",
+    "main": "lib/processenv2.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "jest": {
+        "collectCoverage": true,
+        "coverageReporters": [
+            "text"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Nexus633/processenv2.git"
+    },
+    "keywords": [
+        "env",
+        "dotenv",
+        "environment",
+        "pars",
+        "processenv"
+    ],
+    "author": "Andre Rohlf",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Nexus633/processenv2/issues"
+    },
+    "homepage": "https://github.com/Nexus633/processenv2#readme",
+    "devDependencies": {
+        "eslint": "8.52.0",
+        "eslint-plugin-sort-requires": "^2.1.0",
+        "jest": "^29.7.0",
+        "prettier": "3.0.3"
+    }
 }
