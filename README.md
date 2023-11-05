@@ -43,7 +43,7 @@ LOG_PATH=${HOME_PATH}/log
 ACCESS_LOG='${LOG_PATH}/access.log'
 ERROR_LOG=${LOG_PATH}/error.log
 ERROR_MODE='{ "info": "${LOG_PATH}/info.log", "fatal": "${LOG_PATH}/fatal.log", "exception": "${LOG_PATH}/exception.log" }'
-ERROR_MODE_ARRAY='[ "info\\#dsadsa", "fatal", "exception" ]'
+ERROR_MODE_ARRAY='[ "info\\#with escaped hash", "fatal", "exception" ]'
 INLINE_COMMENT='this is a inline comment #not parsed'
 INLINE_COMMENT_WITH_ESCAPE='this is a inline comment \# with escaped hash'
 ```
