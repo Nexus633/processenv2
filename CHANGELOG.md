@@ -5,7 +5,12 @@
 - add documentation
 - add [docs/DOCUMENTATION.md](docs/DOCUMENTATION.md)
 - add [docs/index.html](docs/index.html)
--
+- add scripts
+    - docs
+    - docs-html
+    - docs-md
+- add DevDependencies
+    - documentation -> ^14.0.2
 
 # version 2.0.0
 
@@ -81,14 +86,10 @@ Snapshots:   0 total
 Time:        0.377 s, estimated 1 s
 Ran all test suites.
 
-- Add DevDependencies
--
+- add DevDependencies
     - eslint -> 8.52.0
--
     - eslint-plugin-sort-requires -> ^2.1.0
--
     - jest -> ^29.7.0
--
     - prettier -> 3.0.3
 
 # version 1.0.1
