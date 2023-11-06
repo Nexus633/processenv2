@@ -1,6 +1,6 @@
 {
   "name": "processenv2",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "parse .env files to load variables to the process.env property automatically",
   "main": "lib/processenv2.js",
   "scripts": {
