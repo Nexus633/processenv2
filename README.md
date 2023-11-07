@@ -21,7 +21,7 @@ _Click here to go to the npmjs page of processenv by TheNativeWeb_
 
 > [TheNativeWeb npmjs](https://www.npmjs.com/package/processenv)
 
-## Version 2.0.1
+## Version 2.0.2
 
 checkout the [Changelog](CHANGELOG.md)
 
