@@ -1,3 +1,9 @@
+# version 2.0.2
+
+## 11/07/2023
+
+- fix grammatical
+
 # version 2.0.1
 
 ## 11/06/2023

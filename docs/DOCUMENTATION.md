@@ -13,7 +13,7 @@
 *   [parseValue][9]
     *   [Parameters][10]
 *   [getProcessEnv][11]
-*   [parsEnvironmentFileString][12]
+*   [parseEnvironmentFileString][12]
     *   [Parameters][13]
 *   [replaceNestedChars][14]
     *   [Parameters][15]
@@ -74,11 +74,11 @@ Returns **([object][21] | [string][19])** **value**
 ## getProcessEnv
 
 This function parse the Global Super process.env
-The values in process.env will be parsed by [parsValue][22]
+The values in process.env will be parsed by [parseValue][9]
 
 Returns **[object][21]** **env**
 
-## parsEnvironmentFileString
+## parseEnvironmentFileString
 
 This function parse the environment file to an Object
 
@@ -123,7 +123,7 @@ You can use inline comments and masked hashtags (\\#)
 *   `key` **[string][19]?**&#x20;
 *   `defaultValue` **any?**&#x20;
 
-Returns **([string][19] | [object][21] | [array][20] | [function][23] | [undefined][24])** **value**
+Returns **([string][19] | [object][21] | [array][20] | [function][22] | [undefined][23])** **value**
 
 [1]: #filtercommentinlines
 
@@ -147,7 +147,7 @@ Returns **([string][19] | [object][21] | [array][20] | [function][23] | [undefin
 
 [11]: #getprocessenv
 
-[12]: #parsenvironmentfilestring
+[12]: #parseenvironmentfilestring
 
 [13]: #parameters-5
 
@@ -167,8 +167,6 @@ Returns **([string][19] | [object][21] | [array][20] | [function][23] | [undefin
 
 [21]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
 
-[22]: parsValue
+[22]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function
 
-[23]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function
-
-[24]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/undefined
+[23]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/undefined

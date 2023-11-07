@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { parsEnvironmentFileString } = require('../lib/parsEnvironmentFileString');
+const { parseEnvironmentFileString } = require('../lib/parseEnvironmentFileString');
 
 describe('test filterEmptyLines', () => {
     test('test filter empty values', () => {
@@ -11,7 +11,7 @@ describe('test filterEmptyLines', () => {
             .readFileSync(path.join(__dirname, '.env.test'), 'utf-8')
             .trim();
 
-        const array = parsEnvironmentFileString(readEnvironmentFile);
+        const array = parseEnvironmentFileString(readEnvironmentFile);
         expect(typeof array).toEqual('object');
     });
 });
